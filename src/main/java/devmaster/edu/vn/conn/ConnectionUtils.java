@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 public class ConnectionUtils {
 	public static Connection getMSSQLConnection() throws SQLException, ClassNotFoundException {
 		String hostName = "localhost";
-		String sqlInstanceName = "SQL2019";
+		String sqlInstanceName = "DESKTOP-JQHVF53";
 		String dbName = "Lab04JspServletJDBC";
 		String userName = "sa";
 		String password = "123456";	
